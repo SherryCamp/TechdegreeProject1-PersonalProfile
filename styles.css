@@ -14,7 +14,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #ddf4e3;
+  background:  lavender;
 }
 /* Link Styles */
 
@@ -23,7 +23,7 @@ a {
   color: #0499ff;
 }
 a:hover {
-  color: #6633ff;
+  color: rgb(95, 95, 243);
 }
 section {
   padding-top: 40px;
@@ -33,7 +33,7 @@ section {
 .main-nav {
   z-index: 1;
   width: 100%;
-  background: black;
+  background: rgba(0, 0, 0, 0.935);
   min-height: 10px;
   padding: 10px;
   position: fixed;
@@ -58,14 +58,14 @@ section {
   font-size: 1.1em;
 }
 .nav a:hover {
-  color: white
+  color: lavender;
 }
 
 header {
   text-align: center;
-  background: url('images/portQuay.jpg') no-repeat top center ;
-  background-size: 100% 100%;
-  overflow: hidden;
+  background: url('images/woodBckgrnd.jpg') no-repeat top center ;
+  background-size: 100%;
+  overflow: hidden; 
   padding-top: 60px;
 }
 header {
@@ -76,15 +76,15 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 20%;
-  border: 3px solid white;
+  border: 3px solid lavender;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: lavender;
+  color: rgba(0, 0, 0, 0.945);
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -92,23 +92,26 @@ header .profile-image:hover {
 } 
 
 .location {
-  background-color: #222;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.935);
+  color: lavender;
 }
 
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: lavender;
+  color: #000000ee;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.924);
+  color: lavender;
 }
 
+.card-title{
+  color: #0499ff;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -210,7 +213,7 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: lavender;
   }
 
   main {
@@ -229,7 +232,7 @@ a.social:hover {
 
 }
 
-h3{
+h2{
   color:purple;
   letter-spacing: 2px;
 }
@@ -273,7 +276,7 @@ figure {
   height: 288px;
 	margin: 0;
 	padding: 0;
-	background: #fff;
+	background: lavender;
 	overflow: visible;
 }
   
